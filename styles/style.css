@@ -1,0 +1,25 @@
+body{
+    background-color: #c2dfef;
+}
+
+.header-title {
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hide {
+ display: none;
+}
+
+footer{
+    color: rgb(131, 134, 233);
+    text-align: center;
+    font-size: 22px;
+    font-style: oblique;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
