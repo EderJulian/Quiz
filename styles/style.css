@@ -1,25 +1,78 @@
-body{
-    background-color: #c2dfef;
+body {
+  background-color: #c2dfef;
 }
 
 .header-title {
-    margin-left: 20px;
-    font-weight: 600;
-    font-size: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .hide {
- display: none;
+  display: none;
 }
 
-footer{
-    color: rgb(131, 134, 233);
-    text-align: center;
-    font-size: 22px;
-    font-style: oblique;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+footer {
+  color: rgb(131, 134, 233);
+  text-align: center;
+  font-size: 22px;
+  font-style: oblique;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.container-minheight{
+  min-height: 75vh;
+}
+.question-card-container{
+  height:22rem; 
+  width: 40rem;
+}
+
+.button-red{
+  background-color: #ee5656;
+}
+.button-red:hover {
+  background-color: #b04040;
+}
+
+.button-yellow{
+  background-color: #eedf56;
+}
+.button-yellow:hover {
+  background-color: #a29844;
+}
+
+.button-green{
+  background-color: #56ee9c;
+}
+.button-green:hover {
+  background-color: #389463;
+}
+
+.button-blue{
+  background-color: #56d3ee; 
+}
+.button-blue:hover {
+  background-color: #3a899a;
+}
+
+.button-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.button-container button{
+  height: 6rem;
+  width: 12rem;
+  border-radius: 5px;
+}
+.button-next-question{
+  display: flex; 
+  justify-content: flex-end;
+  margin-top: 15px;
 }

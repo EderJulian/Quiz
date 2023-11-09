@@ -17,16 +17,33 @@
       </nav>
     </header>
     <main id="content" class="container">
-      <div id="home-container" class="container text-center mt-2 row align-items-center" style="min-height: 75vh;">
-        <div class="card border-primary mb-4 rounded toast show" style="max-width: 20rem;">
+      <div id="home-container" class=" container text-center mt-2 row align-items-center justify-content-center container-minheight">
+        <div class="card border-primary mb-4 rounded toast show">
           <div class="card-body">
             <h4 class="card-title">¡BIENVENIDO!</h4>
-            <p class="card-text">Para empezar haz click en el boton</p>
+            <p class="card-text">Para empezar el test haz click en el boton</p>
             <button id="start-button" type="button" class="btn btn-outline-primary rounded">Empezar</button>
           </div>
         </div>
       </div>
-      <div id="questions-container" class="hide">preguntas</div>
+
+      <div id="questions-container" class=" hide container text-center mt-4 row align-items-center justify-content-center container-minheight">
+        <div class="card border-primary mb-4 rounded toast show question-card-container">
+          <div class="card-body">
+            <h4 class="card-title">poner Pregunta del quiz</h4>
+            <div class="button-container">
+              <button type="button" class="btn button-red">opcion 1</button>
+              <button type="button" class="btn button-yellow">opcion 2</button>
+              <button type="button" class="btn button-green">opcion 3</button>
+              <button type="button" class="btn button-blue">opcion 4</button>
+            </div>
+            <div class="button-next-question">
+              <button type="button" class="btn btn-primary rounded">siguiente</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div id="results-container" class="hide">resultados</div>
     </main>
     <footer>
