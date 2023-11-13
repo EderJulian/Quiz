@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-
+    const homeContainer = document.getElementById('home-container')
     const startButton = document.getElementById('start-btn');
     const nextButton = document.getElementById('next-btn');
     
@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function startGame() {
         console.log('startGame clicked');
         startButton.classList.add('hide');
+        homeContainer.classList.add('hide')
         currentQuestionIndex = 0;
         correctAnswers = 0;
         questionContainerElement.classList.remove('hide');
