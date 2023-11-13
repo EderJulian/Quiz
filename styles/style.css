@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: #c2dfef;
 }
 
@@ -7,12 +7,12 @@ body {
   font-weight: 600;
   font-size: 25px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
+} */
 
 .hide {
   display: none;
 }
-
+/* 
 footer {
   color: rgb(131, 134, 233);
   text-align: center;
@@ -75,4 +75,13 @@ footer {
   display: flex; 
   justify-content: flex-end;
   margin-top: 15px;
+} */
+
+
+
+.color-correct {
+  background-color: #aafca2;
+}
+.color-wrong {
+  background-color: #ff9999;
 }
