@@ -1,4 +1,4 @@
-/* body {
+body {
   background-color: #c2dfef;
 }
 
@@ -7,12 +7,12 @@
   font-weight: 600;
   font-size: 25px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-} */
+}
 
 .hide {
   display: none;
 }
-/* 
+
 footer {
   color: rgb(131, 134, 233);
   text-align: center;
@@ -74,14 +74,34 @@ footer {
 .button-next-question{
   display: flex; 
   justify-content: flex-end;
-  margin-top: 15px;
-} */
-
-
+  margin-top: auto;
+}
 
 .color-correct {
   background-color: #aafca2;
 }
 .color-wrong {
   background-color: #ff9999;
+}
+.hover-disabled {
+  pointer-events: none;
+}
+.results-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.card-results{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bbffde;
+  border-radius: 50%;
+  height:10rem;
+  width: 10rem;
+  font-size: 50px;
+  font-weight: bold;
+  box-shadow: 5px 5px 20px #61a3f0;
+  font-family: Georgia, 'Times New Roman', Times, serif
 }

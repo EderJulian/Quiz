@@ -22,29 +22,40 @@
   </header>
   <main class="container">
 
-    <div id="home-container"
-      class=" container text-center mt-2 row align-items-center justify-content-center container-minheight">
+    <div id="home-container" class="container text-center mt-2 row align-items-center justify-content-center container-minheight">
       <div class="card border-primary mb-4 rounded toast show">
         <div class="card-body">
-          <h4 class="card-title">¡BIENVENIDO!</h4>
-          <p class="card-text">Para empezar el test haz click en el boton</p>
-          <button id="start-btn" type="button" class="btn btn-outline-primary rounded">Empezar</button>
+          <h2 class="card-title">¡WELCOME!</h2>
+          <p class="card-text">TO THE QUIZ</p>
+          <button id="start-btn" type="button" class="btn btn-outline-primary rounded">Start</button>
         </div>
       </div>
     </div>
 
-    <!-- <button id="start-btn">Start Quiz</button> -->
-
-    <div id="question-container" class="hide">
-      <div id="question"></div>
-      <div id="answer-buttons"></div>
-      <button id="next-btn" class="hide">Next</button>
+    <div id="question-container" class="hide container text-center mt-4 row align-items-center justify-content-center container-minheight">
+      <div class="card border-primary mb-4 rounded toast show question-card-container">
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title" id="question"></h5>
+          <div class="button-container" id="answer-buttons">
+          </div>
+          <div class="button-next-question">
+            <button id="next-btn" type="button" class=" hide btn btn-primary rounded">Next</button>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div id="score" class="hide"></div>
-
-
+    <div id="score" class="hide container text-center mt-2 row align-items-center justify-content-center container-minheight">
+      <div class="card border-primary mb-4 rounded toast show">
+        <div class="card-body results-body">
+          <h3 class="card-title">¡Here are your results!</h3>
+          <div class="card-text card-results" id="results"></div>
+          <button id="again-btn" type="button" class="btn btn-outline-primary rounded">PLAY AGAIN</button>
+        </div>
+      </div>
+    </div>
   </main>
+
   <footer>
     <p>&copy; 2023 Laura & Eder</p>
   </footer>
