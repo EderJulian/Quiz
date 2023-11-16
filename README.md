@@ -3,6 +3,7 @@
    <img src="https://img.shields.io/badge/STATUS-FINISHED-blue">
  </p>
 
+
  ### Índice
  - [Descripción del proyecto](#descripción-del-proyecto)
  - [Funcionalidades del proyecto](#Funcionalidades-del-proyecto)
