@@ -6,7 +6,7 @@
 
  ### Índice
  - [Descripción del proyecto](#descripción-del-proyecto)
- - [Funcionalidades del proyecto](#Funcionalidades-del-proyecto)
+ - [Funcionalidades del proyecto](#:hammer:Funcionalidades-del-proyecto)
  - [Tecnologías utilizadas](#tecnologías-utilizadas)
  - [Autores](#Autores)
 
