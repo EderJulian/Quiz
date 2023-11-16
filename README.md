@@ -3,7 +3,6 @@
    <img src="https://img.shields.io/badge/STATUS-FINISHED-blue">
  </p>
 
-<<<<<<< HEAD
  ### Índice
  - [Descripción del proyecto](#descripción-del-proyecto)
  - [Funcionalidades del proyecto](#Funcionalidades-del-proyecto)
@@ -47,5 +46,4 @@ sólo una de ellas será la correcta.
 ## Autores
  BY [EderJulian](https://github.com/EderJulian) AND [LauraGarciaa](https://github.com/LauraGarciaa) :slightly_smiling_face:
 
-=======
->>>>>>> f1adbbf8c89be30fcc958bcc4230150b5a8fa615
+
