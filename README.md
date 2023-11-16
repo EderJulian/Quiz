@@ -29,6 +29,7 @@ sólo una de ellas será la correcta.
 - `Pagina 1`: Empezar el quiz pulsando start.
 - `pagina 2`: En la segunda pagina comenzara el quiz , deberas responder todas las preguntas aleatorias hasta que termine automaticamente.
 - `pagina 3`: Ya terminado el test, aparecera una ultima pantalla con el resultado del quiz.
+¡También podrás volver a jugar!
 
 
 <p align="center"><img src="assets/results.PNG" alt="project-image"></p>
